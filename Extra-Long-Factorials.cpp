@@ -1,3 +1,10 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+string ltrim(const string &);
+string rtrim(const string &);
+
 long long Factorial(long long n)
 {
     if (n <= 1)
@@ -5,6 +12,12 @@ long long Factorial(long long n)
     else
         return n * Factorial(n - 1);
 }
+
+/*
+ * Complete the 'extraLongFactorials' function below.
+ *
+ * The function accepts INTEGER n as parameter.
+ */
 
 void extraLongFactorials(int n)
 {
