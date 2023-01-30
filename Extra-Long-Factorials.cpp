@@ -76,3 +76,16 @@ void extraLongFactorials2(int n)
     for (auto it = d.rbegin(); it != d.rend(); ++it)
         cout << *it;    
 }
+
+int main()
+{
+    string n_temp;
+    getline(cin, n_temp);
+
+    int n = stoi(ltrim(rtrim(n_temp)));
+
+    extraLongFactorials(n);
+
+    return 0;
+}
+
